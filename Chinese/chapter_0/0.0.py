@@ -21,6 +21,7 @@ for file_name in fileids:
     f.write(w1)
     f.close()
 
+
 '''
 import jieba
 corpus_root_after_fenci = "jinyong_fenci/" # 指定分词后中文词料库的存储路径
