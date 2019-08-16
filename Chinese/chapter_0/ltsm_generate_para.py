@@ -76,7 +76,7 @@ if __name__ == '__main__':
     TIME_STEPS = 100
     BATCH_NUMS = len(ltsm.numdata) // (BATCH_SIZE * TIME_STEPS)
     HIDDEN_SIZE = 1024
-    HIDDEN_LAYERS = 3
+    HIDDEN_LAYERS = 5
     MAX_GRAD_NORM = 1
     learning_rate = 0.003
 

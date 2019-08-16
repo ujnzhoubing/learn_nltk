@@ -14,7 +14,7 @@ class RNNModel():
     # BATCH_NUMS = len(numdata) // (BATCH_SIZE * TIME_STEPS)
     BATCH_NUMS = None
     HIDDEN_SIZE = 1024
-    HIDDEN_LAYERS = 3
+    HIDDEN_LAYERS = 5
     MAX_GRAD_NORM = 1
     learning_rate = 0.003
     numdata = None
